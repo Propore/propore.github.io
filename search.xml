@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Go结合 Kafka 与 Elasticsearch 的操作指南</title>
+      <link href="/2026/04/15/go-kafka-elasticsearch-guide/"/>
+      <url>/2026/04/15/go-kafka-elasticsearch-guide/</url>
+      
+      
+      <categories>
+          
+          <category> 技术笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Go </tag>
+            
+            <tag> Kafka </tag>
+            
+            <tag> Elasticsearch </tag>
+            
+            <tag> 中间件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用Hexo搭建博客</title>
       <link href="/2026/04/13/MyFirstBlogHexo/"/>
       <url>/2026/04/13/MyFirstBlogHexo/</url>
