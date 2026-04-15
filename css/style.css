@@ -910,7 +910,7 @@ body {
   letter-spacing: 0.01em;
   font-weight: 200;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 #header-post #nav ul {
   line-height: 15px;
@@ -977,7 +977,7 @@ body {
 }
 #header-post #toc .toc-level-2 {
   color: #c9cacc;
-  font-size: 1.05rem;
+  font-size: 1.55rem;
 }
 #header-post #toc .toc-level-2:before {
   color: #2bbc8a;
@@ -985,11 +985,11 @@ body {
 }
 #header-post #toc .toc-level-3 {
   color: #908d8d;
-  font-size: 0.95rem;
+  font-size: 1.45rem;
 }
 #header-post #toc .toc-level-4 {
   color: #747070;
-  font-size: 0.85rem;
+  font-size: 1.35rem;
 }
 #header-post #toc .toc-level-5 {
   display: none;
