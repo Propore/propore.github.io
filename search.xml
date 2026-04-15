@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>使用Hexo搭建博客</title>
+      <link href="/2026/04/13/MyFirstBlogHexo/"/>
+      <url>/2026/04/13/MyFirstBlogHexo/</url>
+      
+        <content type="html"><![CDATA[<p>在这里记录一下hexos常用的命令</p><h4 id="一、发布一篇文章"><a href="#一、发布一篇文章" class="headerlink" title="一、发布一篇文章"></a>一、发布一篇文章</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new post <span class="string">&quot;Title&quot;</span></span><br></pre></td></tr></table></figure><p>然后在本地部署的<code>C://myblog/source/_posts</code> 文件夹下，找到生产的<code>.md</code>文件</p><p>我是用Typora打开的，之后在里面直接编辑即可</p><h4 id="二、本地浏览"><a href="#二、本地浏览" class="headerlink" title="二、本地浏览"></a>二、本地浏览</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>浏览器输入 <code>http://localhost:4040</code> 确认没问题了就可以发布了。</p><p>发布到网站的操作命令如下：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>访问自己的github地址即可，我的是<code>https://propore.github.io</code></p><h4 id="三、其他说明"><a href="#三、其他说明" class="headerlink" title="三、其他说明"></a>三、其他说明</h4><ol><li><p><strong>文章怎么排版？</strong><br>用 Markdown：</p><ul><li><code># 标题</code></li><li><code>## 小标题</code></li><li><code>**加粗**</code></li></ul></li></ol><ul><li><code>- 列表</code></li></ul><ol start="2"><li><p><strong>想改主页&#x2F;头像&#x2F;名字？</strong><br>改两个配置文件：</p><ul><li>根目录 <code>_config.yml</code> → 网站标题、描述</li><li><code>themes/cactus/_config.yml</code> → 头像、导航、主题色</li></ul></li><li><p><strong>图片怎么放？</strong><br>放进 <code>source/images</code>，然后文章里写：</p><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](<span class="link">/images/图片名.png</span>)</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 博客搭建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
